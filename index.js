@@ -25,6 +25,7 @@ function keepGoing(array, changeValue, skipValue) {
 
 // look for a value in array based on the return value of findFn. Return null if the value isn't found.
 function findBy(array, findFn) {
+  console.log(array)
   let found = null
   for (let i = 0; i < array.length; ++i) {
     if (findFn() === array[i]) {
