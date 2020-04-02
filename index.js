@@ -28,7 +28,7 @@ function findBy(array, findFn) {
   console.log(array)
   let found = null
   for (let i = 0; i < array.length; ++i) {
-    console.log("-> ", array[i])
+    console.log("-> ", array[i], "\n")
     if (findFn === array[i]) {
       found = array[i]
       break
